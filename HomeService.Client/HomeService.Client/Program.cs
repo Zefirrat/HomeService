@@ -25,7 +25,7 @@ namespace HomeService.Client
 
             var indicatorClient = new Indicator.IndicatorClient(channel);
             var indicatorReply = await indicatorClient.IndicateAsync(
-                new IndicateRequest {Color = 1, Duration = 200});
+                new IndicateRequest {Color = 25555, Duration = 200});
             Console.WriteLine($"Indicator: {indicatorReply.Indicated}");
             
             Console.WriteLine("Press any key to exit...");

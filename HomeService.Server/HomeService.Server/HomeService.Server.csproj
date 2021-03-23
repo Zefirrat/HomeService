@@ -10,6 +10,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\HomeService.Protos\HomeService.Protos.csproj" />
+      <ProjectReference Include="..\Indicator\Indicator.Client\Indicator.Client.csproj" />
     </ItemGroup>
 
 </Project>

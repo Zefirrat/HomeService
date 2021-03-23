@@ -4,6 +4,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeService.Server", "HomeS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeService.Protos", "HomeService.Protos\HomeService.Protos.csproj", "{B847CB14-986F-4CA2-8A77-70090AAAFAF7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Indicator", "Indicator", "{9AFCAF8A-65C1-4139-A230-AA2298F42443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indicator.Client", "Indicator\Indicator.Client\Indicator.Client.csproj", "{49D306AE-C056-4ACB-A788-94C5A0680ABC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Connection", "Connection", "{07C6FFFE-0013-4292-957C-92127C957839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connection.Telnet", "Connection\Connection.Telnet\Connection.Telnet.csproj", "{4B2C1C19-5BA1-461D-8F0E-FDEEDFFBC329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,17 @@ Global
 		{B847CB14-986F-4CA2-8A77-70090AAAFAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B847CB14-986F-4CA2-8A77-70090AAAFAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B847CB14-986F-4CA2-8A77-70090AAAFAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D306AE-C056-4ACB-A788-94C5A0680ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D306AE-C056-4ACB-A788-94C5A0680ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D306AE-C056-4ACB-A788-94C5A0680ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D306AE-C056-4ACB-A788-94C5A0680ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2C1C19-5BA1-461D-8F0E-FDEEDFFBC329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2C1C19-5BA1-461D-8F0E-FDEEDFFBC329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2C1C19-5BA1-461D-8F0E-FDEEDFFBC329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2C1C19-5BA1-461D-8F0E-FDEEDFFBC329}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49D306AE-C056-4ACB-A788-94C5A0680ABC} = {9AFCAF8A-65C1-4139-A230-AA2298F42443}
+		{4B2C1C19-5BA1-461D-8F0E-FDEEDFFBC329} = {07C6FFFE-0013-4292-957C-92127C957839}
 	EndGlobalSection
 EndGlobal
