@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeService.Server", "HomeService.Server\HomeService.Server.csproj", "{7AF7B475-A6F9-47D0-A341-326F1B6D2627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeService.Protos", "HomeService.Protos\HomeService.Protos.csproj", "{B847CB14-986F-4CA2-8A77-70090AAAFAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF7B475-A6F9-47D0-A341-326F1B6D2627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF7B475-A6F9-47D0-A341-326F1B6D2627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF7B475-A6F9-47D0-A341-326F1B6D2627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF7B475-A6F9-47D0-A341-326F1B6D2627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B847CB14-986F-4CA2-8A77-70090AAAFAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B847CB14-986F-4CA2-8A77-70090AAAFAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B847CB14-986F-4CA2-8A77-70090AAAFAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B847CB14-986F-4CA2-8A77-70090AAAFAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

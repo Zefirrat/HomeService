@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option csharp_namespace = "HomeService.Server";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
+
+// Indicator
+// Indicate with color
+service Indicator {
+    rpc Indicate (IndicateRequest) returns (IndicateReply);
+}
+
+message IndicateRequest {
+    int32 color = 1;
+    int32 duration = 2;
+}
+
+message IndicateReply {
+    bool indicated = 1;
+}
